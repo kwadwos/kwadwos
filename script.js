@@ -9,7 +9,7 @@ function sendEmail() {
     Message: ${mess.value}`;
 
     Email.send({
-        SecureToken: "91205026-0cfb-4761-ac61-88a7f2584c00",
+        SecureToken: "c558eea8-eed3-4187-822e-d1c569929f39",
         Host: "smtp.elasticemail.com",
         To: "appiahkwadwoemmanuel1994@gmail.com",
         From: "appiahkwadwoemmanuel1994@gmail.com",
