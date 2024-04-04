@@ -9,9 +9,8 @@ function sendEmail() {
     Message: ${mess.value}`;
 
     Email.send({
+        SecureToken: "91205026-0cfb-4761-ac61-88a7f2584c00",
         Host: "smtp.elasticemail.com",
-        Username: "appiahkwadwoemmanuel1994@gmail.com",
-        Password: "729DC1B546FF2288DCBCDF638E2DF5B05DD8",
         To: "appiahkwadwoemmanuel1994@gmail.com",
         From: "appiahkwadwoemmanuel1994@gmail.com",
         Subject: subject.value,
